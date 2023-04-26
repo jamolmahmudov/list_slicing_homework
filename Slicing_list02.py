@@ -6,4 +6,6 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return
+    a =list1+['adf']
+    return a
+print (main([1524,432,24,24,134534]))
