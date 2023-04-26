@@ -5,4 +5,5 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return
+    return list1[0::3]
+print(main(['a',3,3,'f','df','d','f']))
