@@ -4,8 +4,10 @@ def main(list1,n,k):
     Args:
         list1(list): parameter
         n(int): parameter
-        k(int): parameter
+        k(int): parameterc 
     Returns:
         list: return answer.
     """
-    return
+  
+    return list1[n:k]
+print(main([1,2,3,4,5,8,7,8,9],2,6))
